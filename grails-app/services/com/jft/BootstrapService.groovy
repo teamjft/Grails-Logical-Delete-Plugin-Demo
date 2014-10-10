@@ -16,7 +16,7 @@ class BootstrapService {
             10.times {
                 department.addToUsers(new User(name:"User_${it}",age:it+20))
             }
-            department.save()
+            department.save(failOnError:true)
         }
     }
 }
