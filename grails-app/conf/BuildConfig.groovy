@@ -67,7 +67,6 @@ grails.project.dependency.resolution = {
         runtime ":resources:1.2.7"
         compile ":logical-delete:0.1"
         compile ":kickstart-with-bootstrap:1.1.0"
-        compile ":heroku:1.0.1"
         compile ':cloud-support:1.0.8'
 
         // Uncomment these (or add new ones) to enable additional resources capabilities
